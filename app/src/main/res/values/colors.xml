@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors - Premium Green Palette -->
+    <color name="primary_green">#128C7E</color>
+    <color name="primary_green_dark">#0E5F54</color>
+    <color name="accent_green">#25D366</color>
+    <color name="accent_green_light">#DCF8C6</color>
+
+    <!-- Neutral Colors -->
+    <color name="background_light">#F8F9FA</color>
+    <color name="background_white">#FFFFFF</color>
+    <color name="text_primary">#111B21</color>
+    <color name="text_secondary">#3B4A54</color>
+    <color name="text_hint">#8696A0</color>
+    <color name="divider">#E9EDEF</color>
+
+    <!-- Status Colors -->
+    <color name="success">#25D366</color>
+    <color name="error">#E74C3C</color>
+</resources>

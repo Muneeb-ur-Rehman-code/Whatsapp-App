@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">ChatConnect</string>
+
+    <!-- Landing Page -->
+    <string name="landing_title">Welcome to ChatConnect</string>
+    <string name="landing_subtitle">Connect with friends and family around the world</string>
+    <string name="landing_login">Login</string>
+    <string name="landing_register">Register</string>
+
+    <!-- Login Page -->
+    <string name="login_title">Login to your account</string>
+    <string name="login_subtitle">Enter your phone number to continue</string>
+    <string name="phone_hint">Phone number</string>
+    <string name="login_button">Login</string>
+    <string name="no_account">Don\'t have an account? Register</string>
+
+    <!-- Registration Page -->
+    <string name="register_title">Create your account</string>
+    <string name="register_subtitle">Enter your details to get started</string>
+    <string name="name_hint">Full name</string>
+    <string name="register_button">Register</string>
+    <string name="have_account">Already have an account? Login</string>
+
+    <!-- Success Page -->
+    <string name="success_title">Welcome aboard!</string>
+    <string name="success_subtitle">Your account has been created successfully</string>
+    <string name="success_login_title">Login successful!</string>
+    <string name="success_login_subtitle">Redirecting to your chats...</string>
+    <string name="continue_button">Continue</string>
+</resources>
