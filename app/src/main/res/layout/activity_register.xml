@@ -10,9 +10,9 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="LocalChat"
+        android:text="Create Account"
         android:textColor="#075E54"
-        android:textSize="32sp"
+        android:textSize="28sp"
         android:textStyle="bold" />
 
     <TextView
@@ -20,9 +20,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="32dp"
-        android:text="Login to continue"
+        android:text="Register with your mobile number"
         android:textColor="#666666"
-        android:textSize="16sp" />
+        android:textSize="14sp" />
 
     <EditText
         android:id="@+id/etMobile"
@@ -43,23 +43,33 @@
         android:inputType="textPassword"
         android:padding="12dp" />
 
+    <EditText
+        android:id="@+id/etConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_edittext"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:padding="12dp" />
+
     <Button
-        android:id="@+id/btnLogin"
+        android:id="@+id/btnRegister"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginTop="24dp"
         android:background="@drawable/bg_button"
-        android:text="Login"
+        android:text="Register"
         android:textColor="#FFFFFF"
         android:textSize="16sp" />
 
     <TextView
-        android:id="@+id/tvRegister"
+        android:id="@+id/tvLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:padding="8dp"
-        android:text="Don't have an account? Register"
+        android:text="Already have an account? Login"
         android:textColor="#075E54"
         android:textSize="14sp" />
 

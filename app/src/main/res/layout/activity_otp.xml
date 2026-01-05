@@ -10,9 +10,9 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="LocalChat"
+        android:text="Verify OTP"
         android:textColor="#075E54"
-        android:textSize="32sp"
+        android:textSize="28sp"
         android:textStyle="bold" />
 
     <TextView
@@ -20,46 +20,40 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="32dp"
-        android:text="Login to continue"
+        android:gravity="center"
+        android:text="Enter the 6-digit code shown in the toast message"
         android:textColor="#666666"
-        android:textSize="16sp" />
+        android:textSize="14sp" />
 
     <EditText
-        android:id="@+id/etMobile"
-        android:layout_width="match_parent"
+        android:id="@+id/etOtp"
+        android:layout_width="200dp"
         android:layout_height="50dp"
         android:background="@drawable/bg_edittext"
-        android:hint="Mobile Number"
-        android:inputType="phone"
-        android:padding="12dp" />
-
-    <EditText
-        android:id="@+id/etPassword"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginTop="16dp"
-        android:background="@drawable/bg_edittext"
-        android:hint="Password"
-        android:inputType="textPassword"
-        android:padding="12dp" />
+        android:gravity="center"
+        android:hint="000000"
+        android:inputType="number"
+        android:maxLength="6"
+        android:padding="12dp"
+        android:textSize="20sp" />
 
     <Button
-        android:id="@+id/btnLogin"
+        android:id="@+id/btnVerify"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginTop="24dp"
         android:background="@drawable/bg_button"
-        android:text="Login"
+        android:text="Verify"
         android:textColor="#FFFFFF"
         android:textSize="16sp" />
 
     <TextView
-        android:id="@+id/tvRegister"
+        android:id="@+id/tvResend"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:padding="8dp"
-        android:text="Don't have an account? Register"
+        android:text="Didn't see OTP? Show Again"
         android:textColor="#075E54"
         android:textSize="14sp" />
 
